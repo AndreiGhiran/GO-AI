@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['engine.py'],
-             pathex=['D:\\AI\\proiect\\game'],
+             pathex=['D:\\AI\\GO-AI\\game'],
              binaries=[],
              datas=[],
              hiddenimports=[],
