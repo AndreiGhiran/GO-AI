@@ -1,5 +1,5 @@
 # GO-AI
-Proienct Inteligenta Artificeala
+Proiect Inteligenta Artificiala
 
 Ghiran Andrei,
 Cernat Cristina,
