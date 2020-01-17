@@ -1,5 +1,5 @@
 # GO-AI
-Proiect Inteligenta Artificiala
+Proiect Inteligenta Artificiala(grupa E2)
 
 Ghiran Andrei,
 Cernat Cristina,
