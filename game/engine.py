@@ -12,15 +12,15 @@ globalLetterDict = {
     "G": 6,
     "H": 7,
     "J": 8,
-    "K": 9,
-    "L": 10,
-    "M": 11,
+   "K": 9,
+   "L": 10,
+   "M": 11,
     "N": 12,
     "O": 13,
     "P": 14,
-    "Q": 15,
-    "R": 16,
-    "S": 17,
+   "Q": 15,
+   "R": 16,
+   "S": 17,
     "T": 18,
 }
 
@@ -67,7 +67,9 @@ class Engine:
         self.board = np.zeros((self.boardsize, self.boardsize))
         return "= board cleared\n"
 
-    def go_play(self, color, move):
+    def go_play(self, color, move="pass"):
+        if move == "pass":
+            return "= acknowledged move\n"
         if color == "W":
             self.board[int(move[1:])-1][globalLetterDict[move[0]]] = 1
         else:
